@@ -22,40 +22,34 @@
  */
 package com.semanticcms.autogit.model;
 
-// Java 1.8: import java.time.Instant;
-import java.util.List;
-
 /**
- * The Git status at a given moment in time.
+ * The states are ordered from least severe to highest.  The overall state
+ * is the state of the highest individual change.
  */
-public class GitStatus {
+public enum State {
+	SYNCHRONIZED("Synchronized", "gitStatusSynchronized"),
+	UNCOMMITTED_CHANGES("Uncommitted Changes", "gitStatusUncommittedChanges"),
+	UNMERGED("Unmerged", "gitStatusUnmerged"),
+	DISABLED("Disabled", "gitStatusDisabled"),
+	STARTING("Starting", "gitStatusStarting"),
+	TIMEOUT("Timeout", "gitStatusTimeout"),
+	PULL_FAILED("Pull Failed", "gitStatusPullFailed"),
+	PUSH_FAILED("Push Failed", "gitStatusPushFailed");
 
-	// Java 1.8: private final Instant statusTime;
-	private final long statusTime;
-	private final State state;
-	private final List<UncommittedChange> uncommittedChanges;
+	private final String toString;
+	private final String cssClass;
 
-	public GitStatus(
-		// Java 1.8: Instant statusTime,
-		long statusTime,
-		State state,
-		List<UncommittedChange> uncommittedChanges
-	) {
-		this.statusTime = statusTime;
-		this.state = state;
-		this.uncommittedChanges = uncommittedChanges;
+	private State(String toString, String cssClass) {
+		this.toString = toString;
+		this.cssClass = cssClass;
 	}
 
-	// Java 1.8: public Instant getStatusTime() {
-	public long getStatusTime() {
-		return statusTime;
+	@Override
+	public String toString() {
+		return toString;
 	}
 
-	public State getState() {
-		return state;
-	}
-
-	public List<UncommittedChange> getUncommittedChanges() {
-		return uncommittedChanges;
+	public String getCssClass() {
+		return cssClass;
 	}
 }

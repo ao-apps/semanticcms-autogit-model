@@ -22,40 +22,24 @@
  */
 package com.semanticcms.autogit.model;
 
-// Java 1.8: import java.time.Instant;
-import java.util.List;
-
 /**
- * The Git status at a given moment in time.
+ * The type of change a meaning implies
  */
-public class GitStatus {
+public enum Change {
+	Ignored("gitChangeIgnored"),
+	Unchanged("gitChangeUnchanged"),
+	Added("gitChangeAdded"),
+	Modified("gitChangeModified"),
+	Deleted("gitChangeDeleted"),
+	Unmerged("gitChangeUnmerged");
 
-	// Java 1.8: private final Instant statusTime;
-	private final long statusTime;
-	private final State state;
-	private final List<UncommittedChange> uncommittedChanges;
+	private final String cssClass;
 
-	public GitStatus(
-		// Java 1.8: Instant statusTime,
-		long statusTime,
-		State state,
-		List<UncommittedChange> uncommittedChanges
-	) {
-		this.statusTime = statusTime;
-		this.state = state;
-		this.uncommittedChanges = uncommittedChanges;
+	private Change(String cssClass) {
+		this.cssClass = cssClass;
 	}
 
-	// Java 1.8: public Instant getStatusTime() {
-	public long getStatusTime() {
-		return statusTime;
-	}
-
-	public State getState() {
-		return state;
-	}
-
-	public List<UncommittedChange> getUncommittedChanges() {
-		return uncommittedChanges;
+	public String getCssClass() {
+		return cssClass;
 	}
 }
