@@ -22,7 +22,7 @@
  */
 package com.semanticcms.autogit.model;
 
-import java.time.Instant;
+// Java 1.8: import java.time.Instant;
 import java.util.List;
 
 /**
@@ -243,12 +243,14 @@ public class GitStatus {
 		}
 	}
 
-	private final Instant statusTime;
+	// Java 1.8: private final Instant statusTime;
+	private final long statusTime;
 	private final State state;
 	private final List<UncommittedChange> uncommittedChanges;
 
 	public GitStatus(
-		Instant statusTime,
+		// Java 1.8: Instant statusTime,
+		long statusTime,
 		State state,
 		List<UncommittedChange> uncommittedChanges
 	) {
@@ -257,7 +259,8 @@ public class GitStatus {
 		this.uncommittedChanges = uncommittedChanges;
 	}
 
-	public Instant getStatusTime() {
+	// Java 1.8: public Instant getStatusTime() {
+	public long getStatusTime() {
 		return statusTime;
 	}
 
