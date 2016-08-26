@@ -26,12 +26,12 @@ package com.semanticcms.autogit.model;
  * The type of change a meaning implies
  */
 public enum Change {
-	Ignored("gitChangeIgnored"),
-	Unchanged("gitChangeUnchanged"),
-	Added("gitChangeAdded"),
-	Modified("gitChangeModified"),
-	Deleted("gitChangeDeleted"),
-	Unmerged("gitChangeUnmerged");
+	Ignored("semanticcms-autogit-change-ignored"),
+	Unchanged("semanticcms-autogit-change-unchanged"),
+	Added("semanticcms-autogit-change-added"),
+	Modified("semanticcms-autogit-change-modified"),
+	Deleted("semanticcms-autogit-change-deleted"),
+	Unmerged("semanticcms-autogit-change-unmerged");
 
 	private final String cssClass;
 

@@ -27,14 +27,14 @@ package com.semanticcms.autogit.model;
  * is the state of the highest individual change.
  */
 public enum State {
-	SYNCHRONIZED("Synchronized", "gitStatusSynchronized"),
-	UNCOMMITTED_CHANGES("Uncommitted Changes", "gitStatusUncommittedChanges"),
-	UNMERGED("Unmerged", "gitStatusUnmerged"),
-	DISABLED("Disabled", "gitStatusDisabled"),
-	STARTING("Starting", "gitStatusStarting"),
-	TIMEOUT("Timeout", "gitStatusTimeout"),
-	PULL_FAILED("Pull Failed", "gitStatusPullFailed"),
-	PUSH_FAILED("Push Failed", "gitStatusPushFailed");
+	SYNCHRONIZED("Synchronized", "semanticcms-autogit-state-synchronized"),
+	UNCOMMITTED_CHANGES("Uncommitted Changes", "semanticcms-autogit-state-uncommitted-changes"),
+	UNMERGED("Unmerged", "semanticcms-autogit-state-unmerged"),
+	DISABLED("Disabled", "semanticcms-autogit-state-disabled"),
+	STARTING("Starting", "semanticcms-autogit-state-starting"),
+	TIMEOUT("Timeout", "semanticcms-autogit-state-timeout"),
+	PULL_FAILED("Pull Failed", "semanticcms-autogit-state-pull-failed"),
+	PUSH_FAILED("Push Failed", "semanticcms-autogit-state-push-failed");
 
 	private final String toString;
 	private final String cssClass;
