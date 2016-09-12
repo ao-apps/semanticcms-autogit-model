@@ -27,7 +27,7 @@ along with semanticcms-autogit-model.  If not, see <http://www.gnu.org/licenses 
 	<parent>
 		<groupId>com.semanticcms</groupId>
 		<artifactId>semanticcms-autogit</artifactId>
-		<version>1.2</version>
+		<version>1.3-SNAPSHOT</version>
 	</parent>
 
 	<groupId>com.semanticcms</groupId>
@@ -36,7 +36,7 @@ along with semanticcms-autogit-model.  If not, see <http://www.gnu.org/licenses 
 	<packaging>jar</packaging>
 
 	<name>SemanticCMS AutoGit Model</name>
-	<url>https://semanticcms.com/docs/semanticcms-autogit-model/</url>
+	<url>https://semanticcms.com/autogit/model/</url>
 	<description>SemanticCMS automatic Git.</description>
 
 	<scm>
