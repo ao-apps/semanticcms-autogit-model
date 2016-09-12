@@ -38,6 +38,7 @@ along with semanticcms-autogit-model.  If not, see <http://www.gnu.org/licenses 
 	<name>SemanticCMS AutoGit Model</name>
 	<url>https://semanticcms.com/autogit/model/</url>
 	<description>SemanticCMS automatic Git.</description>
+	<inceptionYear>2016</inceptionYear>
 
 	<scm>
 		<connection>scm:git:git://github.com/aoindustries/semanticcms-autogit-model.git</connection>
