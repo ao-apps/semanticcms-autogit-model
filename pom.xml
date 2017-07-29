@@ -33,7 +33,7 @@ along with semanticcms-autogit-model.  If not, see <http://www.gnu.org/licenses 
 
 	<groupId>com.semanticcms</groupId>
 	<artifactId>semanticcms-autogit-model</artifactId>
-	<version>1.4.4-SNAPSHOT</version>
+	<version>1.4.4-validation-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<properties>
