@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 semanticcms-autogit-model - SemanticCMS automatic Git.
-Copyright (C) 2016, 2017  AO Industries, Inc.
+Copyright (C) 2016, 2017, 2019  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -42,7 +42,7 @@ along with semanticcms-autogit-model.  If not, see <http://www.gnu.org/licenses 
 		<documented.artifactId>semanticcms-autogit-model</documented.artifactId>
 		<documented.javaVersion>1.6</documented.javaVersion>
 		<documented.javac.link.javaApi>${javac.link.javaApi.jdk16}</documented.javac.link.javaApi>
-		<documented.name>SemanticCMS AutoGit Model</documented.name>
+		<documented.name>SemanticCMS 1 AutoGit Model</documented.name>
 		<documented.shortTitle>Model</documented.shortTitle>
 		<documented.url>https://semanticcms.com/autogit/model/</documented.url>
 		<documented.description>SemanticCMS automatic Git.</documented.description>
