@@ -25,15 +25,11 @@ along with semanticcms-autogit-model.  If not, see <http://www.gnu.org/licenses 
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.semanticcms</groupId>
-		<artifactId>semanticcms-parent</artifactId>
-		<version>1.0.2-SNAPSHOT</version>
+		<groupId>com.semanticcms</groupId><artifactId>semanticcms-parent</artifactId><version>1.0.2-SNAPSHOT</version>
 		<relativePath>../../parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.semanticcms</groupId>
-	<artifactId>semanticcms-autogit-model</artifactId>
-	<version>1.4.4-SNAPSHOT</version>
+	<groupId>com.semanticcms</groupId><artifactId>semanticcms-autogit-model</artifactId><version>1.4.4-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<properties>
@@ -64,8 +60,7 @@ along with semanticcms-autogit-model.  If not, see <http://www.gnu.org/licenses 
 				<pluginManagement>
 					<plugins>
 						<plugin>
-							<groupId>org.apache.maven.plugins</groupId>
-							<artifactId>maven-javadoc-plugin</artifactId>
+							<groupId>org.apache.maven.plugins</groupId><artifactId>maven-javadoc-plugin</artifactId>
 							<configuration>
 								<links>
 									<link>${javac.link.javaApi}</link>
