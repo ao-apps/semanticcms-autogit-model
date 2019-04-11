@@ -1,4 +1,4 @@
-# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://aoindustries.com/) [SemanticCMS](https://semanticcms.com/) / [AutoGit](https://semanticcms.com/autogit/) / [Model](https://semanticcms.com/autogit/model/)
+# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/aoindustries) [SemanticCMS](https://github.com/aoindustries/semanticcms) / [AutoGit](https://github.com/aoindustries/semanticcms-autogit) / [Model](https://github.com/aoindustries/semanticcms-autogit-model)
 <p>
 	<a href="https://aoindustries.com/life-cycle#project-current-stable">
 		<img src="https://semanticcms.com/ao-badges/project-current-stable.svg" alt="project: current stable" />
@@ -21,7 +21,7 @@
 	</a>
 </p>
 
-[SemanticCMS](https://semanticcms.com/) automatic Git.
+[SemanticCMS](https://github.com/aoindustries/semanticcms) automatic Git.
 
 ## Project Links
 * [Project Home](https://semanticcms.com/autogit/model/)
