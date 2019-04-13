@@ -29,7 +29,7 @@ along with semanticcms-autogit-model.  If not, see <http://www.gnu.org/licenses 
 		<relativePath>../../parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.semanticcms</groupId><artifactId>semanticcms-autogit-model</artifactId><version>1.4.4-SNAPSHOT</version>
+	<groupId>com.semanticcms</groupId><artifactId>semanticcms-autogit-model</artifactId><version>1.4.4-validation-SNAPSHOT</version>
 	<packaging>bundle</packaging>
 
 	<properties>
