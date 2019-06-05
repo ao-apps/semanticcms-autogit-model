@@ -37,7 +37,7 @@ along with semanticcms-autogit-model.  If not, see <http://www.gnu.org/licenses 
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2016-10-30T13:54:21-0500"
-		dateModified="2018-05-30T19:48:33-0500"
+		dateModified="2019-06-04T15:21:46-0500"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.semanticcms:semanticcms-autogit-model:pom.version}" />
@@ -55,6 +55,7 @@ along with semanticcms-autogit-model.  If not, see <http://www.gnu.org/licenses 
 			>
 				<ul>
 					<li>Updated for <core:link book="/" page="/" /> 2 compatibility.</li>
+					<!-- TODO: <li>Minimum Java version changed from 1.6 to 1.7.</li>-->
 				</ul>
 			</changelog:release>
 		</c:if>
