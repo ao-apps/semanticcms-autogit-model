@@ -1,6 +1,6 @@
 /*
  * semanticcms-autogit-model - SemanticCMS automatic Git.
- * Copyright (C) 2016  AO Industries, Inc.
+ * Copyright (C) 2016, 2020  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -128,6 +128,6 @@ public enum Meaning {
 		// !           !    ignored
 		if(x=='!' && y=='!') return Ignored;
 
-		throw new IllegalArgumentException("Unexpected combination of 'x' and 'y': '" + x + "' and '" + y + "'");
+		throw new IllegalArgumentException("Unexpected combination of 'x' and 'y': '" + x + "' and '" + y +'\'');
 	}
 }
