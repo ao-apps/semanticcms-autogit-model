@@ -52,4 +52,9 @@ along with semanticcms-autogit-model.  If not, see <http://www.gnu.org/licenses 
 		<url>https://github.com/aoindustries/semanticcms-autogit-model</url>
 		<tag>HEAD</tag>
 	</scm>
+
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/aoindustries/semanticcms-autogit-model/issues</url>
+	</issueManagement>
 </project>
