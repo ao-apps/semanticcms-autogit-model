@@ -1,6 +1,6 @@
 /*
  * semanticcms-autogit-model - SemanticCMS automatic Git.
- * Copyright (C) 2016  AO Industries, Inc.
+ * Copyright (C) 2016, 2020  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -35,6 +35,9 @@ public class GitStatus {
 	private final State state;
 	private final List<UncommittedChange> uncommittedChanges;
 
+	/**
+	 * @param  uncommittedChanges  Must be unmodifiable, no additional defensive copy is performed
+	 */
 	public GitStatus(
 		// Java 1.8: Instant statusTime,
 		long statusTime,
@@ -55,6 +58,7 @@ public class GitStatus {
 		return state;
 	}
 
+	@SuppressWarnings("ReturnOfCollectionOrArrayField") // Returning unmodifiable
 	public List<UncommittedChange> getUncommittedChanges() {
 		return uncommittedChanges;
 	}
