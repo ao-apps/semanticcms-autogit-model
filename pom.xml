@@ -35,8 +35,7 @@ along with semanticcms-autogit-model.  If not, see <http://www.gnu.org/licenses 
 	<properties>
 		<javadoc.breadcrumbs><![CDATA[<a target="${javadoc.target}" href="https://semanticcms.com/">SemanticCMS</a>
 / <a target="${javadoc.target}" href="https://semanticcms.com/autogit/">AutoGit</a>
-/ <a target="${javadoc.target}" href="${project.url}">${shortTitle}</a>]]></javadoc.breadcrumbs>
-		<shortTitle>Model</shortTitle>
+/ <a target="${javadoc.target}" href="${project.url}">Model</a>]]></javadoc.breadcrumbs>
 		<description.html><![CDATA[<a target="${javadoc.target}" href="https://semanticcms.com/">SemanticCMS</a> automatic Git.]]></description.html>
 	</properties>
 
