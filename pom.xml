@@ -79,4 +79,19 @@ along with semanticcms-autogit-model.  If not, see <http://www.gnu.org/licenses 
 		<system>GitHub Issues</system>
 		<url>https://github.com/aoindustries/semanticcms-autogit-model/issues</url>
 	</issueManagement>
+
+	<repositories>
+		<!-- Repository required here, too, so can find parent -->
+		<repository>
+			<id>sonatype-nexus-snapshots</id>
+			<name>Sonatype Nexus Snapshots</name>
+			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
 </project>
