@@ -71,20 +71,20 @@ along with semanticcms-autogit-model.  If not, see <http://www.gnu.org/licenses 
 	</developers>
 
 	<scm>
-		<connection>scm:git:git://github.com/aoindustries/semanticcms-autogit-model.git</connection>
-		<developerConnection>scm:git:git@github.com:aoindustries/semanticcms-autogit-model.git</developerConnection>
-		<url>https://github.com/aoindustries/semanticcms-autogit-model</url>
+		<connection>scm:git:git://github.com/ao-apps/semanticcms-autogit-model.git</connection>
+		<developerConnection>scm:git:git@github.com:ao-apps/semanticcms-autogit-model.git</developerConnection>
+		<url>https://github.com/ao-apps/semanticcms-autogit-model</url>
 		<tag>HEAD</tag>
 	</scm>
 
 	<issueManagement>
 		<system>GitHub Issues</system>
-		<url>https://github.com/aoindustries/semanticcms-autogit-model/issues</url>
+		<url>https://github.com/ao-apps/semanticcms-autogit-model/issues</url>
 	</issueManagement>
 
 	<ciManagement>
 		<system>GitHub Actions</system>
-		<url>https://github.com/aoindustries/semanticcms-autogit-model/actions</url>
+		<url>https://github.com/ao-apps/semanticcms-autogit-model/actions</url>
 	</ciManagement>
 
 	<repositories>
