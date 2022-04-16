@@ -1,6 +1,6 @@
 /*
  * semanticcms-autogit-model - SemanticCMS automatic Git.
- * Copyright (C) 2016, 2020  AO Industries, Inc.
+ * Copyright (C) 2016, 2020, 2022  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -20,6 +20,7 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with semanticcms-autogit-model.  If not, see <https://www.gnu.org/licenses/>.
  */
+
 package com.semanticcms.autogit.model;
 
 /**
