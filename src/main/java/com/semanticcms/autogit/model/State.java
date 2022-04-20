@@ -28,29 +28,29 @@ package com.semanticcms.autogit.model;
  * is the state of the highest individual change.
  */
 public enum State {
-	SYNCHRONIZED("Synchronized", "semanticcms-autogit-state-synchronized"),
-	UNCOMMITTED_CHANGES("Uncommitted Changes", "semanticcms-autogit-state-uncommitted-changes"),
-	UNMERGED("Unmerged", "semanticcms-autogit-state-unmerged"),
-	DISABLED("Disabled", "semanticcms-autogit-state-disabled"),
-	STARTING("Starting", "semanticcms-autogit-state-starting"),
-	TIMEOUT("Timeout", "semanticcms-autogit-state-timeout"),
-	PULL_FAILED("Pull Failed", "semanticcms-autogit-state-pull-failed"),
-	PUSH_FAILED("Push Failed", "semanticcms-autogit-state-push-failed");
+  SYNCHRONIZED("Synchronized", "semanticcms-autogit-state-synchronized"),
+  UNCOMMITTED_CHANGES("Uncommitted Changes", "semanticcms-autogit-state-uncommitted-changes"),
+  UNMERGED("Unmerged", "semanticcms-autogit-state-unmerged"),
+  DISABLED("Disabled", "semanticcms-autogit-state-disabled"),
+  STARTING("Starting", "semanticcms-autogit-state-starting"),
+  TIMEOUT("Timeout", "semanticcms-autogit-state-timeout"),
+  PULL_FAILED("Pull Failed", "semanticcms-autogit-state-pull-failed"),
+  PUSH_FAILED("Push Failed", "semanticcms-autogit-state-push-failed");
 
-	private final String toString;
-	private final String cssClass;
+  private final String toString;
+  private final String cssClass;
 
-	private State(String toString, String cssClass) {
-		this.toString = toString;
-		this.cssClass = cssClass;
-	}
+  private State(String toString, String cssClass) {
+    this.toString = toString;
+    this.cssClass = cssClass;
+  }
 
-	@Override
-	public String toString() {
-		return toString;
-	}
+  @Override
+  public String toString() {
+    return toString;
+  }
 
-	public String getCssClass() {
-		return cssClass;
-	}
+  public String getCssClass() {
+    return cssClass;
+  }
 }

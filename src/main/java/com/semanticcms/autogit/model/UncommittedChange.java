@@ -25,49 +25,49 @@ package com.semanticcms.autogit.model;
 
 public class UncommittedChange {
 
-	private final char x;
-	private final char y;
-	private final Meaning meaning;
-	private final String module;
-	private final String from;
-	private final String to;
+  private final char x;
+  private final char y;
+  private final Meaning meaning;
+  private final String module;
+  private final String from;
+  private final String to;
 
-	public UncommittedChange(
-		char x,
-		char y,
-		String module,
-		String from,
-		String to
-	) {
-		this.x = x;
-		this.y = y;
-		this.meaning = Meaning.getMeaning(x, y);
-		this.module = module;
-		this.from = from;
-		this.to = to;
-	}
+  public UncommittedChange(
+    char x,
+    char y,
+    String module,
+    String from,
+    String to
+  ) {
+    this.x = x;
+    this.y = y;
+    this.meaning = Meaning.getMeaning(x, y);
+    this.module = module;
+    this.from = from;
+    this.to = to;
+  }
 
-	public char getX() {
-		return x;
-	}
+  public char getX() {
+    return x;
+  }
 
-	public char getY() {
-		return y;
-	}
+  public char getY() {
+    return y;
+  }
 
-	public Meaning getMeaning() {
-		return meaning;
-	}
+  public Meaning getMeaning() {
+    return meaning;
+  }
 
-	public String getModule() {
-		return module;
-	}
+  public String getModule() {
+    return module;
+  }
 
-	public String getFrom() {
-		return from;
-	}
+  public String getFrom() {
+    return from;
+  }
 
-	public String getTo() {
-		return to;
-	}
+  public String getTo() {
+    return to;
+  }
 }
