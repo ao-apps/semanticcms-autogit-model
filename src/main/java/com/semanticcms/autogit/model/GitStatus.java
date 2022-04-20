@@ -31,36 +31,36 @@ import java.util.List;
  */
 public class GitStatus {
 
-	// Java 1.8: private final Instant statusTime;
-	private final long statusTime;
-	private final State state;
-	private final List<UncommittedChange> uncommittedChanges;
+  // Java 1.8: private final Instant statusTime;
+  private final long statusTime;
+  private final State state;
+  private final List<UncommittedChange> uncommittedChanges;
 
-	/**
-	 * @param  uncommittedChanges  Must be unmodifiable, no additional defensive copy is performed
-	 */
-	public GitStatus(
-		// Java 1.8: Instant statusTime,
-		long statusTime,
-		State state,
-		List<UncommittedChange> uncommittedChanges
-	) {
-		this.statusTime = statusTime;
-		this.state = state;
-		this.uncommittedChanges = uncommittedChanges;
-	}
+  /**
+   * @param  uncommittedChanges  Must be unmodifiable, no additional defensive copy is performed
+   */
+  public GitStatus(
+    // Java 1.8: Instant statusTime,
+    long statusTime,
+    State state,
+    List<UncommittedChange> uncommittedChanges
+  ) {
+    this.statusTime = statusTime;
+    this.state = state;
+    this.uncommittedChanges = uncommittedChanges;
+  }
 
-	// Java 1.8: public Instant getStatusTime() {
-	public long getStatusTime() {
-		return statusTime;
-	}
+  // Java 1.8: public Instant getStatusTime() {
+  public long getStatusTime() {
+    return statusTime;
+  }
 
-	public State getState() {
-		return state;
-	}
+  public State getState() {
+    return state;
+  }
 
-	@SuppressWarnings("ReturnOfCollectionOrArrayField") // Returning unmodifiable
-	public List<UncommittedChange> getUncommittedChanges() {
-		return uncommittedChanges;
-	}
+  @SuppressWarnings("ReturnOfCollectionOrArrayField") // Returning unmodifiable
+  public List<UncommittedChange> getUncommittedChanges() {
+    return uncommittedChanges;
+  }
 }
