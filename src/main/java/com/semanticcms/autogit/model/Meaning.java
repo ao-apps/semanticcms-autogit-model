@@ -167,6 +167,6 @@ public enum Meaning {
       return Ignored;
     }
 
-    throw new IllegalArgumentException("Unexpected combination of 'x' and 'y': '" + x + "' and '" + y +'\'');
+    throw new IllegalArgumentException("Unexpected combination of 'x' and 'y': '" + x + "' and '" + y + '\'');
   }
 }
