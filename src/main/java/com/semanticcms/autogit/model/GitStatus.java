@@ -40,10 +40,10 @@ public class GitStatus {
    * @param  uncommittedChanges  Must be unmodifiable, no additional defensive copy is performed
    */
   public GitStatus(
-    // Java 1.8: Instant statusTime,
-    long statusTime,
-    State state,
-    List<UncommittedChange> uncommittedChanges
+      // Java 1.8: Instant statusTime,
+      long statusTime,
+      State state,
+      List<UncommittedChange> uncommittedChanges
   ) {
     this.statusTime = statusTime;
     this.state = state;

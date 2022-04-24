@@ -33,11 +33,11 @@ public class UncommittedChange {
   private final String to;
 
   public UncommittedChange(
-    char x,
-    char y,
-    String module,
-    String from,
-    String to
+      char x,
+      char y,
+      String module,
+      String from,
+      String to
   ) {
     this.x = x;
     this.y = y;
