@@ -37,6 +37,8 @@ public class GitStatus {
   private final List<UncommittedChange> uncommittedChanges;
 
   /**
+   * Creates a new Git status at a given moment in time.
+   *
    * @param  uncommittedChanges  Must be unmodifiable, no additional defensive copy is performed
    */
   public GitStatus(

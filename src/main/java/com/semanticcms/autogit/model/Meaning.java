@@ -24,7 +24,7 @@
 package com.semanticcms.autogit.model;
 
 /**
- * From man git-status
+ * From man git-status.
  */
 public enum Meaning {
   // Uncommitted changes

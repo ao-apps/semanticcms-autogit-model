@@ -23,6 +23,9 @@
 
 package com.semanticcms.autogit.model;
 
+/**
+ * An uncommitted change.
+ */
 public class UncommittedChange {
 
   private final char x;
@@ -32,6 +35,9 @@ public class UncommittedChange {
   private final String from;
   private final String to;
 
+  /**
+   * Creates a new uncommitted change.
+   */
   public UncommittedChange(
       char x,
       char y,
