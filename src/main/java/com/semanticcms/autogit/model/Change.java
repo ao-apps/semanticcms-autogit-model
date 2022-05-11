@@ -24,7 +24,7 @@
 package com.semanticcms.autogit.model;
 
 /**
- * The type of change a meaning implies
+ * The type of change a meaning implies.
  */
 public enum Change {
   Ignored("semanticcms-autogit-change-ignored"),
