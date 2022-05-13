@@ -22,4 +22,4 @@
  */
 module com.semanticcms.autogit.model {
   exports com.semanticcms.autogit.model;
-} // TODO: Avoiding rewrite-maven-plugin-4.22.2 truncation
+}
