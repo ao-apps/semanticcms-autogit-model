@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 semanticcms-autogit-model - SemanticCMS automatic Git.
-Copyright (C) 2022  AO Industries, Inc.
+Copyright (C) 2022, 2026  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -29,7 +29,7 @@ along with semanticcms-autogit-model.  If not, see <https://www.gnu.org/licenses
 
   <!-- Allow single-character members -->
   <suppress
-    checks="MemberName"
+    checks="GoogleNonConstantFieldName"
     files="[/\\]com[/\\]semanticcms[/\\]autogit[/\\]model[/\\]UncommittedChange\.java$"
     message="'(x|y)'"
   />
